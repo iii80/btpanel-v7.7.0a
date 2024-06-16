@@ -61,11 +61,11 @@ rm /tmp/bt.zip
 如果遇到重启后宝塔乱码 请DD最新版Debian系统然后修改语言区域：
 ```
 localectl set-locale LANG=en_US.UTF-8
-
 nano /etc/default/locale
 ```
-LANG="en_US.UTF-8"
 
+```
+LANG="en_US.UTF-8"
 LC_ALL="en_US.UTF-8"
 ```
 修改后保存文件，重启VPS即可。
